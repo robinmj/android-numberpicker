@@ -1,6 +1,6 @@
 package net.simonvt.numberpicker.samples;
 
-import net.simonvt.numberpicker.NumberPicker;
+import net.simonvt.numberpicker.LogarithmicNumberPicker;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -16,9 +16,11 @@ public class DarkThemeActivity extends Activity {
 
         setContentView(R.layout.activity_dark);
 
-        NumberPicker np = (NumberPicker) findViewById(R.id.numberPicker);
-        np.setMaxValue(20);
-        np.setMinValue(0);
+        LogarithmicNumberPicker np = (LogarithmicNumberPicker) findViewById(R.id.numberPicker);
+        np.setNegativeNumbersAllowed(false);
+        np.setSigFigs(2);
+        np.setMaxDecimalPlaces(2);
+        np.setMaxDigits(4);
         np.setFocusable(true);
         np.setFocusableInTouchMode(true);
     }

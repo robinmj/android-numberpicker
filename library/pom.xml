@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>net.simonvt</groupId>
+        <groupId>com.subalpine</groupId>
         <artifactId>android-numberpicker-parent</artifactId>
-        <version>1.0.1-SNAPSHOT</version>
+        <version>0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>android-numberpicker</artifactId>
-    <name>Android NumberPicker</name>
+    <artifactId>android-logarithmicnumberpicker</artifactId>
+    <name>Android Logarithmic NumberPicker</name>
     <packaging>apklib</packaging>
 
     <dependencies>

@@ -9,14 +9,14 @@
         <version>7</version>
     </parent>
 
-    <groupId>net.simonvt</groupId>
-    <artifactId>android-numberpicker-parent</artifactId>
+    <groupId>com.subalpine</groupId>
+    <artifactId>android-logarithmicnumberpicker-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>0.1-SNAPSHOT</version>
 
-    <name>Android NumberPicker (Parent)</name>
-    <description>A backport of the Android 4.2 NumberPicker.</description>
-    <url>https://github.com/SimonVT/android-numberpicker</url>
+    <name>Android Logarithmic NumberPicker (Parent)</name>
+    <description>A fork of SimonVT/android-numberpicker that allows the user to pick numbers in logarithmic increments</description>
+    <url>https://github.com/robinmj/android-numberpicker</url>
     <inceptionYear>2012</inceptionYear>
 
     <modules>
@@ -25,9 +25,9 @@
     </modules>
 
     <scm>
-        <url>http://github.com/SimonVT/android-numberpicker/</url>
-        <connection>scm:git:git://github.com/SimonVT/android-numberpicker.git</connection>
-        <developerConnection>scm:git:git@github.com:SimonVT/android-numberpicker.git</developerConnection>
+        <url>http://github.com/robinmj/android-numberpicker/</url>
+        <connection>scm:git:git://github.com/robinmj/android-numberpicker.git</connection>
+        <developerConnection>scm:git:git@github.com:robinmj/android-numberpicker.git</developerConnection>
       <tag>HEAD</tag>
   </scm>
 
@@ -41,7 +41,7 @@
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/SimonVT/android-numberpicker/issues</url>
+        <url>https://github.com/robinmj/android-numberpicker/issues</url>
     </issueManagement>
 
     <properties>
